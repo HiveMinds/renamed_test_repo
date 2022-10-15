@@ -8,4 +8,4 @@ test:pytest:36:
     - conda env create -q -f environment.yml -n example_env --force
     - source activate example_env
     - conda install pytest
-    - python -m pytest
+    - python -m pytest 
